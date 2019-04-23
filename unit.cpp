@@ -5,6 +5,12 @@
 
 // TODO: ensure all implementations below are correct and add any additional if needed.
 
+AttackStrategy Unit::getAttackDamage()   //需要写
+{
+    return attackDamage;
+}
+
+
 Unit::Unit(int initialHp) {
 }
 
@@ -16,7 +22,17 @@ void Unit::takeDamage(int damage) {
 }
 
 int Unit::hp() const {
-  return _hp;
+    return _hp;
+}
+
+int Unit::attackModifier()    //需要写
+{
+
+}
+
+int Unit::productionCost()   //需要写
+{
+
 }
 
 int Unit::randomAttack() const
@@ -27,4 +43,4 @@ int Unit::randomAttack() const
   return attackVal(randomEngine);
 }
 
-AttackStrategy Unit::attackDamage{}; // Initialise the static member
+AttackStrategy Unit::attackDamage{}; // Initialise the static member 需要初始化

@@ -3,3 +3,18 @@
 // TODO: implement the functions for the concrete Unit types here.
 // This is just to make it easier to mark.
 
+
+//Soldier::Soldier()
+//{
+
+//}
+
+//Archer::Archer()
+//{
+
+//}
+
+//Chariot::Chariot()
+//{
+
+//}
